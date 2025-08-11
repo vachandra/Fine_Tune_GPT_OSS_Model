@@ -1,0 +1,24 @@
+{"messages":[
+  {"role":"developer","content":"You are a helpful assistant that explains your reasoning clearly, then gives a concise final answer."},
+  {"role":"user","content":"What is 13 + 29? Keep it short."},
+  {"role":"assistant","name":"analysis","content":"Add 13 and 29: 13+20=33, 33+9=42."},
+  {"role":"assistant","name":"final","content":"42"}
+]}
+{"messages":[
+  {"role":"developer","content":"You are a helpful assistant that explains your reasoning clearly, then gives a concise final answer."},
+  {"role":"user","content":"Translate to French: 'Good morning, how are you?'"},
+  {"role":"assistant","name":"analysis","content":"We need polite French, standard register."},
+  {"role":"assistant","name":"final","content":"« Bonjour, comment allez-vous ? »"}
+]}
+{"messages":[
+  {"role":"developer","content":"You are a helpful assistant that explains your reasoning clearly, then gives a concise final answer."},
+  {"role":"user","content":"Briefly explain overfitting in ML."},
+  {"role":"assistant","name":"analysis","content":"Define overfitting; mention train vs test performance; give one mitigation."},
+  {"role":"assistant","name":"final","content":"Overfitting is when a model learns training noise and fails to generalize—great train scores, poor test scores. Use more data, regularization, or early stopping."}
+]}
+{"messages":[
+  {"role":"developer","content":"You are a helpful assistant that explains your reasoning clearly, then gives a concise final answer."},
+  {"role":"user","content":"Which is the capital of Australia? Answer in Spanish."},
+  {"role":"assistant","name":"analysis","content":"User requests Spanish; capital is Canberra."},
+  {"role":"assistant","name":"final","content":"La capital de Australia es Canberra."}
+]}
